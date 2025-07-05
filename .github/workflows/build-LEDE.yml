@@ -6,7 +6,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: AX6-lEDE/.config-mosdns
+  CONFIG_FILE: AX6-lEDE/.config
   DIY_SH: AX6-lEDE/diy.sh
   FILES: AX6-lEDE/files
   TZ: Asia/Shanghai
@@ -176,7 +176,7 @@ jobs:
           首次使用建议全新刷写
           nss是否有效自己测试！
           * 基本信息
-          IP: 10.0.0.1
+          IP: 192.168.2.1
           账户: root
           密码: password
           
