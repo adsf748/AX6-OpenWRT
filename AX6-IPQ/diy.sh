@@ -71,7 +71,7 @@ rm -rf feeds/luci/applications/luci-app-vlmcsd
 ./scripts/feeds install -d y -p istore luci-app-store
 
 #修改默认IP
-sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
 
 #修改主机名
 #sed -i "s/hostname='ImmortalWrt'/hostname='Redmi-AX6'/g" package/base-files/files/bin/config_generate
